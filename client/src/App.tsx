@@ -6,8 +6,10 @@ import FilePondPluginFileValidateType from "filepond-plugin-file-validate-type";
 import "filepond/dist/filepond.min.css";
 import "filepond-plugin-image-preview/dist/filepond-plugin-image-preview.css";
 
-import { API } from "./Api"; // your API base e.g. export const API = "http://localhost:3000";
+// import { API } from "./Api"; // your API base e.g. export const API = "http://localhost:3000";
 import "./App.css";
+
+const API = "https://buket-source-code.vercel.app";
 
 registerPlugin(FilePondPluginImagePreview, FilePondPluginFileValidateType);
 
