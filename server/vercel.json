@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "server/api/github.js",
+      "src": "/api/github.js",
       "use": "@vercel/node"
     }
   ],
   "routes": [
     {
       "src": "/api/(.*)",
-      "dest": "server/api/github.js"
+      "dest": "/api/github.js"
     }
   ]
 }
