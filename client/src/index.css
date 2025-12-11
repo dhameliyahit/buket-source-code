@@ -1,0 +1,3 @@
+/* // Put these in index.js or at top of the component file (before component) */
+import "filepond/dist/filepond.min.css";
+import "filepond-plugin-image-preview/dist/filepond-plugin-image-preview.css";
